@@ -1,5 +1,9 @@
 # Django Real Estate SaaS App
 
+This project is an illustration of how one can develop a SaaS application using Django. How to tackle the issue of tenancy dynamically 
+by identifying each registered user with a Unique Tenant ID. The project will also use multiple databases i.e for users, listings, etc. 
+Django doesn't solve the issue of cross-database relations while using multiple databases and thus we shall use the unique tenant id generated during registration across the different databases.
+
 This is a web application that can be used in marketing and management of properties by a property management company. 
 
 The key things I want to tackle in the backend development are;
